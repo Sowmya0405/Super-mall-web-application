@@ -1,5 +1,5 @@
 // API Configuration
-const API_URL = 'https://super-mall-web-application.onrender.com';
+const API_URL = 'https://super-mall-web-application.onrender.com/api';
 
 // State Management
 let state = {
