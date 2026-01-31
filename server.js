@@ -624,5 +624,13 @@ async function startServer() {
         console.log(`- GET    /api/stats`);
     });
 }
-
+ // Keep-alive logic
+const https = require('https');
+setInterval(() => {
+    https.get('https://super-mall-web-application.onrender.com/api/shops', (res) => {
+        console.log('Self-ping successful: Keeping server awake');
+    }).on('error', (err) => {
+        console.error('Self-ping failed:', err.message);
+    });
+}, 600000); // Pings every 10 minutes (600,000 ms)
 startServer();
