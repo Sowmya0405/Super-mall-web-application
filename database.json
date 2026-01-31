@@ -1,0 +1,266 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "Zara",
+      "category": 1,
+      "floor": 1,
+      "shopNumber": "G-101",
+      "description": "International fashion retailer",
+      "contact": "+91 98765 43210",
+      "email": "zara@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 2,
+      "name": "H&M",
+      "category": 1,
+      "floor": 1,
+      "shopNumber": "G-105",
+      "description": "Swedish fashion brand",
+      "contact": "+91 98765 43211",
+      "email": "hm@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 3,
+      "name": "Apple Store",
+      "category": 2,
+      "floor": 2,
+      "shopNumber": "F1-201",
+      "description": "Official Apple retailer",
+      "contact": "+91 98765 43212",
+      "email": "apple@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Experience",
+      "category": 2,
+      "floor": 2,
+      "shopNumber": "F1-205",
+      "description": "Samsung products showcase",
+      "contact": "+91 98765 43213",
+      "email": "samsung@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 5,
+      "name": "Starbucks",
+      "category": 3,
+      "floor": 3,
+      "shopNumber": "F2-301",
+      "description": "Coffee and snacks",
+      "contact": "+91 98765 43214",
+      "email": "starbucks@luxeplaza.com",
+      "hours": "8:00 AM - 10:00 PM"
+    },
+    {
+      "id": 6,
+      "name": "McDonald's",
+      "category": 3,
+      "floor": 3,
+      "shopNumber": "F2-310",
+      "description": "Fast food restaurant",
+      "contact": "+91 98765 43215",
+      "email": "mcdonalds@luxeplaza.com",
+      "hours": "10:00 AM - 11:00 PM"
+    },
+    {
+      "id": 7,
+      "name": "IKEA",
+      "category": 4,
+      "floor": 4,
+      "shopNumber": "F3-401",
+      "description": "Furniture and home accessories",
+      "contact": "+91 98765 43216",
+      "email": "ikea@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 8,
+      "name": "Sephora",
+      "category": 5,
+      "floor": 1,
+      "shopNumber": "G-120",
+      "description": "Beauty and cosmetics",
+      "contact": "+91 98765 43217",
+      "email": "sephora@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 9,
+      "name": "Nike",
+      "category": 6,
+      "floor": 1,
+      "shopNumber": "G-115",
+      "description": "Sportswear and equipment",
+      "contact": "+91 98765 43218",
+      "email": "nike@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    },
+    {
+      "id": 10,
+      "name": "Adidas",
+      "category": 6,
+      "floor": 1,
+      "shopNumber": "G-118",
+      "description": "Sports apparel and footwear",
+      "contact": "+91 98765 43219",
+      "email": "adidas@luxeplaza.com",
+      "hours": "10:00 AM - 9:00 PM"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Summer Sale",
+      "shopId": 1,
+      "discount": 50,
+      "description": "Up to 50% off on all summer collections",
+      "validFrom": "2026-01-20",
+      "validUntil": "2026-02-28"
+    },
+    {
+      "id": 2,
+      "title": "New Year Offer",
+      "shopId": 2,
+      "discount": 40,
+      "description": "40% discount on selected items",
+      "validFrom": "2026-01-15",
+      "validUntil": "2026-02-15"
+    },
+    {
+      "id": 3,
+      "title": "Tech Bonanza",
+      "shopId": 3,
+      "discount": 15,
+      "description": "Special discounts on latest Apple products",
+      "validFrom": "2026-01-25",
+      "validUntil": "2026-02-10"
+    },
+    {
+      "id": 4,
+      "title": "Galaxy Days",
+      "shopId": 4,
+      "discount": 25,
+      "description": "25% off on Samsung Galaxy series",
+      "validFrom": "2026-01-20",
+      "validUntil": "2026-03-01"
+    },
+    {
+      "id": 5,
+      "title": "Coffee Club",
+      "shopId": 5,
+      "discount": 10,
+      "description": "Buy 2 get 1 free on all beverages",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31"
+    },
+    {
+      "id": 6,
+      "title": "Happy Meal Deal",
+      "shopId": 6,
+      "discount": 20,
+      "description": "20% off on combo meals",
+      "validFrom": "2026-01-15",
+      "validUntil": "2026-02-28"
+    },
+    {
+      "id": 7,
+      "title": "Home Makeover",
+      "shopId": 7,
+      "discount": 30,
+      "description": "30% off on furniture collection",
+      "validFrom": "2026-01-20",
+      "validUntil": "2026-03-15"
+    },
+    {
+      "id": 8,
+      "title": "Beauty Festival",
+      "shopId": 8,
+      "discount": 35,
+      "description": "Flat 35% off on makeup products",
+      "validFrom": "2026-01-25",
+      "validUntil": "2026-02-25"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fashion & Apparel",
+      "description": "Clothing, accessories, and footwear",
+      "icon": "👗"
+    },
+    {
+      "id": 2,
+      "name": "Electronics",
+      "description": "Latest gadgets and technology",
+      "icon": "📱"
+    },
+    {
+      "id": 3,
+      "name": "Food & Beverages",
+      "description": "Restaurants and food courts",
+      "icon": "🍽️"
+    },
+    {
+      "id": 4,
+      "name": "Home & Lifestyle",
+      "description": "Furniture and home decor",
+      "icon": "🏠"
+    },
+    {
+      "id": 5,
+      "name": "Beauty & Cosmetics",
+      "description": "Skincare and makeup products",
+      "icon": "💄"
+    },
+    {
+      "id": 6,
+      "name": "Sports & Fitness",
+      "description": "Sportswear and equipment",
+      "icon": "⚽"
+    }
+  ],
+  "floors": [
+    {
+      "id": 1,
+      "number": 1,
+      "name": "Ground Floor",
+      "description": "Fashion & Accessories"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "name": "First Floor",
+      "description": "Electronics & Technology"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "name": "Second Floor",
+      "description": "Food Court & Restaurants"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "name": "Third Floor",
+      "description": "Home & Lifestyle"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "name": "Fourth Floor",
+      "description": "Entertainment & Cinema"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}
